@@ -23,7 +23,7 @@
 }
 
 .text-box:last-child .span{
-    
+    background-color: red;
 }
 
 .text-box > * {
@@ -47,8 +47,6 @@
 .text-bubble{
     min-width: 20px;
     min-height: 35px;
-
-    /* box-shadow: 0px 0px 10px 1px #cfcfcf; */
 }
 
 .span{
@@ -56,14 +54,21 @@
     padding: 5px 15px;
     border-radius: 10px;
     background-color: rgba(172, 225, 172, 0.848);
-    max-width: 75%;
+    max-width: 65%;
+    /* text-align: start; */
 }
 li{
     margin: 5px 0;
 }
-ul{
-   
+.self{
+    text-align: end;
+    background-color: rgba(172, 225, 172, 0.848);
 }
+.other{
+    text-align: start;
+    background-color: rgba(222, 224, 222, 0.877);
+}
+
 
 
 
